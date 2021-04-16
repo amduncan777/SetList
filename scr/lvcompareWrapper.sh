@@ -29,4 +29,4 @@ remoteWin=$(abspath "$2")
 
 #
 echo Launching "$lvcompare"
-exec "$lvcompare" "$localWin" "$remoteWin"
+exec "$lvcompare" "$localWin" "$remoteWin" -nobdcosm -nobdpos

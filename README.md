@@ -1,12 +1,8 @@
-# SetList
+# LabVIEW Git Config
 
-LabVIEW control for BEC experiments. SetList can be cited using [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3344809.svg)](https://doi.org/10.5281/zenodo.3344808).
+Forked from JQIamo's SetList Repo that contained a great starting point but was missing a few things that were still bothering me...
 
-## Getting started
-
-Read the [documentation](#documentation), and clone the repository! If you encounter issues, please submit a ticket on the [issues page](https://github.com/JQIamo/SetList/issues) or email Zach (zsmith12 at umd).
-
-### For Developers
+## For Developers
 
 You can now use Labview's built-in tools to compare/diff and merge from git:
 
@@ -27,11 +23,3 @@ This will copy appropriate scripts to `~/bin/` on your local drive, and set up n
 
 If you attempt a merge and conflicts are reported, you can run `git mergelv`.  This should begin listing conflicted
 files and give you the option to launch LVMerge to help resolve them.
-
-## Documentation
-
-For documentation, see the [SetList project page](http://jqiamo.github.io/SetList/). This has a link to a pdf dump of the documentation, which for historic reasons is currently being maintained on the [internal JQI wiki](https://jqi-wiki.physics.umd.edu/d/documentation/software/computercontrol/setlist/home).
-
-## Other Info
-
-**The root of this repository was a fresh repository forked from the SVNrepo revision 456.** The SVN repository is now obsolete and should no longer be used for version control.
